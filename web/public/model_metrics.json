@@ -1,0 +1,96 @@
+{
+    "model_name": "Gradient Boosting Classifier",
+    "metrics": {
+        "cv_roc_auc_mean": 0.9534126102145931,
+        "cv_roc_auc_std": 0.00043979540309840187,
+        "accuracy": 0.8879206349206349,
+        "precision": 0.8814209322842584,
+        "recall": 0.866598219185357,
+        "f1_score": 0.8739467295058555,
+        "roc_auc": 0.95428990901301,
+        "confusion_matrix": [
+            [
+                62923,
+                6586
+            ],
+            [
+                7536,
+                48955
+            ]
+        ]
+    },
+    "feature_importance": {
+        "Thallium": 0.5332598434999971,
+        "Chest pain type": 0.16583218387062912,
+        "Max HR": 0.07456513898488223,
+        "Number of vessels fluro": 0.0673259656074395,
+        "Exercise angina": 0.04205572063616194,
+        "Slope of ST": 0.040814774950719036,
+        "ST depression": 0.04037031858618663,
+        "Sex": 0.0216840008828693,
+        "Age": 0.010002375348032983,
+        "EKG results": 0.0031804383380166297,
+        "Cholesterol": 0.0008937603698317274,
+        "BP": 1.547892523388536e-05,
+        "FBS over 120": 0.0
+    },
+    "all_models_results": {
+        "Logistic Regression": {
+            "cv_roc_auc_mean": 0.9502269604294815,
+            "cv_roc_auc_std": 0.0004884552705007818,
+            "accuracy": 0.8846825396825397,
+            "precision": 0.8814428303910696,
+            "recall": 0.8582252040147988,
+            "f1_score": 0.8696790858700917,
+            "roc_auc": 0.951546958953206,
+            "confusion_matrix": [
+                [
+                    62988,
+                    6521
+                ],
+                [
+                    8009,
+                    48482
+                ]
+            ]
+        },
+        "Random Forest Classifier": {
+            "cv_roc_auc_mean": 0.9520925490725789,
+            "cv_roc_auc_std": 0.0004843901372448587,
+            "accuracy": 0.8864285714285715,
+            "precision": 0.8802076760829983,
+            "recall": 0.8643146695933865,
+            "f1_score": 0.8721887783355067,
+            "roc_auc": 0.9531269496546488,
+            "confusion_matrix": [
+                [
+                    62864,
+                    6645
+                ],
+                [
+                    7665,
+                    48826
+                ]
+            ]
+        },
+        "Gradient Boosting Classifier": {
+            "cv_roc_auc_mean": 0.9534126102145931,
+            "cv_roc_auc_std": 0.00043979540309840187,
+            "accuracy": 0.8879206349206349,
+            "precision": 0.8814209322842584,
+            "recall": 0.866598219185357,
+            "f1_score": 0.8739467295058555,
+            "roc_auc": 0.95428990901301,
+            "confusion_matrix": [
+                [
+                    62923,
+                    6586
+                ],
+                [
+                    7536,
+                    48955
+                ]
+            ]
+        }
+    }
+}
